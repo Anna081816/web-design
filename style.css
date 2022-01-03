@@ -48,7 +48,7 @@ a:hover{
     -webkit-background-size: cover;
     background-size: cover;
 }
-.about-area, .port-area, .service-area, .contact-area{
+.about-area, .port-area, .service-area, .contact-area, .Venus-area{
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -83,7 +83,11 @@ p{
     color: #fff;
 }
 .contact-area{
-    background: lightskyblue;
+    background: lightgreen;
+    color: #fff;
+} 
+.Venus-area{
+    background: lightsalmon;
     color: #fff;
 } 
 }
