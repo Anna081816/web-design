@@ -28,6 +28,7 @@ font-family: Poppins;
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 35px;
+    color: #ffd700;
 }
 a{
     margin: 15px;
@@ -40,8 +41,8 @@ a:hover{
 }
 .banner-area{
     position: relative;
-    background-image: url();
-    width: 100px; 
+    background-image: url(01.jpg);
+    width: 100%; 
     height: 100vh;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -69,12 +70,22 @@ p{
     font-size: 24px;
     line-height: 50px;
 }
-.about-area, .service-area{
-    background: #fefefe;
-}
-.port-area, .contact-area{
-    background: #262626;
+.about-area{
+    background: #FEAFE0;
     color: #fff;
+}
+.service-area{
+    background: lightcoral;
+    color: #fff;  
+}
+.port-area{
+    background: lightskyblue;
+    color: #fff;
+}
+.contact-area{
+    background: lightskyblue;
+    color: #fff;
+} 
 }
 html{
     scroll-behavior: smooth;
